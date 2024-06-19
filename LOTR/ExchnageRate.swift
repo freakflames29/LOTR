@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct ExchnageRate: View {
+    let leftImg : ImageResource
+    let msg : String
+    let rightImg : ImageResource
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            // currency infos
+            Image(leftImg)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 33)
+            Text(msg)
+            
+            Image(rightImg)
+                .resizable()
+                .scaledToFit()
+                .frame(height: 33)
+            
+        }
     }
 }
 
 #Preview {
-    ExchnageRate()
+    ExchnageRate(leftImg: .silverpenny, msg: "HI", rightImg: .goldpenny)
 }

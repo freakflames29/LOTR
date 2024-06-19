@@ -8,11 +8,41 @@
 import SwiftUI
 
 struct CurrencySelectGridView: View {
+//    @State var selectedCurrency : CurrencyModel
+    @Binding var selectedCurrency : CurrencyModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        LazyVGrid(columns: [GridItem(),GridItem(),GridItem()], content: {
+            ForEach(CurrencyModel.allCases) { currency in
+                
+                if selectedCurrency == currency
+                    
+                {
+                    CurrencyIcon(Icon: currency.img, IconName: currency.imgName)
+                        .shadow(color: .black, radius: 5)
+                        .overlay{
+                            RoundedRectangle(cornerRadius: 20)
+                                .stroke(lineWidth: 2)
+                                .foregroundStyle(.green)
+                            
+                                .opacity(0.7)
+                        }
+                }
+                else{
+                    CurrencyIcon(Icon: currency.img, IconName: currency.imgName)
+                        .onTapGesture {
+                            selectedCurrency = currency
+                        }
+                    
+                }
+                
+            }.padding(4)
+            
+            
+        })
     }
 }
 
 #Preview {
-    CurrencySelectGridView()
+    CurrencySelectGridView(selectedCurrency: .constant(.CopperPenny) )
 }

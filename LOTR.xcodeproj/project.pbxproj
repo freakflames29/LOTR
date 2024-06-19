@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3321295A2C16281100B0EE2F /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332129592C16281100B0EE2F /* CurrencyModel.swift */; };
+		3382DBAB2C157F4C0041D73D /* ExchangeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DBAA2C157F4C0041D73D /* ExchangeInfoView.swift */; };
+		3382DBAD2C1588DF0041D73D /* ExchnageRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DBAC2C1588DF0041D73D /* ExchnageRate.swift */; };
+		3382DBAF2C15FC870041D73D /* SelectCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DBAE2C15FC870041D73D /* SelectCurrencyView.swift */; };
+		3382DBB12C15FFD80041D73D /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DBB02C15FFD70041D73D /* CurrencyIcon.swift */; };
+		33C1812F2C22F12F00AAFECA /* TipKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1812E2C22F12F00AAFECA /* TipKitView.swift */; };
 		33D6E2922C108095003F4A5A /* LOTRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6E2912C108095003F4A5A /* LOTRApp.swift */; };
 		33D6E2942C108095003F4A5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6E2932C108095003F4A5A /* ContentView.swift */; };
 		33D6E2962C108096003F4A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D6E2952C108096003F4A5A /* Assets.xcassets */; };
@@ -14,6 +20,7 @@
 		33D6E2A32C108096003F4A5A /* LOTRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6E2A22C108096003F4A5A /* LOTRTests.swift */; };
 		33D6E2AD2C108096003F4A5A /* LOTRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6E2AC2C108096003F4A5A /* LOTRUITests.swift */; };
 		33D6E2AF2C108096003F4A5A /* LOTRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D6E2AE2C108096003F4A5A /* LOTRUITestsLaunchTests.swift */; };
+		33F99EB62C1F2D2A0059E85A /* CurrencySelectGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F99EB52C1F2D2A0059E85A /* CurrencySelectGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332129592C16281100B0EE2F /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		3382DBAA2C157F4C0041D73D /* ExchangeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfoView.swift; sourceTree = "<group>"; };
+		3382DBAC2C1588DF0041D73D /* ExchnageRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchnageRate.swift; sourceTree = "<group>"; };
+		3382DBAE2C15FC870041D73D /* SelectCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrencyView.swift; sourceTree = "<group>"; };
+		3382DBB02C15FFD70041D73D /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
+		33C1812E2C22F12F00AAFECA /* TipKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipKitView.swift; sourceTree = "<group>"; };
 		33D6E28E2C108095003F4A5A /* LOTR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D6E2912C108095003F4A5A /* LOTRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRApp.swift; sourceTree = "<group>"; };
 		33D6E2932C108095003F4A5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,7 @@
 		33D6E2A82C108096003F4A5A /* LOTRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D6E2AC2C108096003F4A5A /* LOTRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRUITests.swift; sourceTree = "<group>"; };
 		33D6E2AE2C108096003F4A5A /* LOTRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33F99EB52C1F2D2A0059E85A /* CurrencySelectGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelectGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				33D6E2912C108095003F4A5A /* LOTRApp.swift */,
 				33D6E2932C108095003F4A5A /* ContentView.swift */,
+				33C1812E2C22F12F00AAFECA /* TipKitView.swift */,
+				3382DBAA2C157F4C0041D73D /* ExchangeInfoView.swift */,
+				3382DBAE2C15FC870041D73D /* SelectCurrencyView.swift */,
+				33F99EB52C1F2D2A0059E85A /* CurrencySelectGridView.swift */,
+				332129592C16281100B0EE2F /* CurrencyModel.swift */,
+				3382DBB02C15FFD70041D73D /* CurrencyIcon.swift */,
+				3382DBAC2C1588DF0041D73D /* ExchnageRate.swift */,
 				33D6E2952C108096003F4A5A /* Assets.xcassets */,
 				33D6E2972C108096003F4A5A /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3321295A2C16281100B0EE2F /* CurrencyModel.swift in Sources */,
+				3382DBAD2C1588DF0041D73D /* ExchnageRate.swift in Sources */,
 				33D6E2942C108095003F4A5A /* ContentView.swift in Sources */,
+				33F99EB62C1F2D2A0059E85A /* CurrencySelectGridView.swift in Sources */,
 				33D6E2922C108095003F4A5A /* LOTRApp.swift in Sources */,
+				3382DBAB2C157F4C0041D73D /* ExchangeInfoView.swift in Sources */,
+				33C1812F2C22F12F00AAFECA /* TipKitView.swift in Sources */,
+				3382DBAF2C15FC870041D73D /* SelectCurrencyView.swift in Sources */,
+				3382DBB12C15FFD80041D73D /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
